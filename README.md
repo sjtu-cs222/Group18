@@ -1,2 +1,1 @@
-# Group18
-Application of Federated learning on speech recognization
+Keras is required.Please download data_thchs30.tar then unpack the dataset to /data folder.First, you should start fl_server as the server, then you need to start fl_clent.py five times as five client progress, then it will start the training process.You can check 127.0.0.1:5000/ for dashboard or 127.0.0.1:5000/stats for some details.
